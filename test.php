@@ -12,10 +12,10 @@
 </head>
 <body>
 <?php
-require_once dirname(__FILE__).'/classes/Service.php';
+require_once dirname(__FILE__).'/Service.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
-$service = new Service(dirname(__FILE__).'/config');
+$service = new Service();
 $inputString = 'http://www.ebay.com/itm/dawes/REF=11111111 
 amazon.com/dp/B01K1C94E4?tag=222222222222222
 http://cccccccccccccccc.reseller.hop.clickbank.net 

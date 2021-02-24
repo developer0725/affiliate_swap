@@ -12,10 +12,10 @@
 </head>
 <body>
 <?php
-require_once dirname(__FILE__).'/classes/Service.php';
+require_once dirname(__FILE__).'/Service.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
-$service = new Service(dirname(__FILE__).'/config');
+$service = new Service();
 ?>
 
 <?php
