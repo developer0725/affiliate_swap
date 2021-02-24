@@ -36,7 +36,10 @@ if (strtoupper($method) == 'POST') {
 ?>
 
 <div class="container-lg">
-    <h1 class="mt-4">Network Management</h1>
+    <div class="d-flex justify-content-between mt-3 mb-2">
+        <h1 class="mt-4">Network Management</h1>
+        <a class="btn btn-link" href="index.php" role="button">To Home</a>
+    </div>
     <div class="modal fade" id="networkEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
